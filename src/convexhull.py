@@ -34,7 +34,7 @@ def area_convex(P1, P2, point_dict):
         if(point_dict[i] != P1 and point_dict[i] != P2):
             P3 = point_dict[i]
             det = P1.x*P2.y + P3.x*P1.y + P2.x*P3.y - P3.x*P2.y - P2.x*P1.y - P1.x*P3.y
-            if(det <= 0):
+            if(det < 0):
                 area.append(P3)
     return area
 
