@@ -94,6 +94,7 @@ def myConvexHull(bucket):
     #atas / kiri
     left_area = area_convex(P2, P1, point_dict)
     
+    
     #bawah / kanan
     right_area = area_convex(P1, P2, point_dict)
     
