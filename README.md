@@ -2,7 +2,7 @@
 > Tugas kecil 2 IF2211 Strategi Algoritma 2022
 
 ## General Information
-A program to find convex hull using divide and conquer Algorithm
+A program to find convex hull using divide and conquer Algorithm. Only one flaw on petal dataset, the other datasets work just fine.
 
 ## Setup
 - Install Python Environment
